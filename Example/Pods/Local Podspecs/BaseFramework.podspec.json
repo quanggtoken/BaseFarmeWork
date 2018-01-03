@@ -1,0 +1,22 @@
+{
+  "name": "BaseFramework",
+  "version": "0.1.0",
+  "summary": "A short description of BaseFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/quang.le@gtoken.com/BaseFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "quang.le@gtoken.com": "levietquangt2@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/quang.le@gtoken.com/BaseFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BaseFramework/Classes/**/*"
+}

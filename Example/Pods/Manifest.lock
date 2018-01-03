@@ -1,0 +1,36 @@
+PODS:
+  - BaseFramework (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Nimble (7.0.3)
+  - Nimble-Snapshots (6.3.0):
+    - Nimble-Snapshots/Core (= 6.3.0)
+  - Nimble-Snapshots/Core (6.3.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble (~> 7.0)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - BaseFramework (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Nimble (~> 7.0.2)
+  - Nimble-Snapshots (~> 6.3.0)
+  - Quick (~> 1.2.0)
+
+EXTERNAL SOURCES:
+  BaseFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BaseFramework: 02af76ff36b7c6a08bf9418bb7d970e41f12dcd4
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 66d7d75d15d9d3980466813ccfc1ced45ce5d464
+
+COCOAPODS: 1.3.1
