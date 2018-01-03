@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/quang.le@gtoken.com/BaseFramework'
+  s.homepage         = 'https://github.com/quanggtoken/BaseFarmework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'quang.le@gtoken.com' => 'levietquangt2@gmail.com' }
-  s.source           = { :git => 'https://github.com/quang.le@gtoken.com/BaseFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/quanggtoken/BaseFarmework.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'BaseFramework/Classes/**/*'
   
@@ -38,5 +38,20 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire', '~> 4.5'
+  s.dependency 'SwiftyJSON'
+  s.dependency 'ObjectMapper', '~> 3.1'
+  #s.dependency 'SnapKit', '~> 4.0.0'
+  #s.dependency 'Kingfisher', '~> 4.0'
+  s.dependency 'Localize-Swift', '~> 2.0'
+  s.dependency 'EKAlgorithms', '~> 0.2'
+  s.dependency 'Zip', '~> 1.1'
+  s.dependency 'FileBrowser', '~> 1.0'
+  s.dependency 'SVProgressHUD', '~> 2.2.2'
+  s.dependency 'SDWebImage'
+  s.dependency 'IQKeyboardManagerSwift', '5.0.0'
+  s.dependency 'SPTPersistentCache', '~> 1.1.0'
+  s.dependency 'IQKeyboardManagerSwift', '5.0.0'
+  s.dependency 'OAuthSwift', '1.2.0'
+  s.dependency 'RNCryptor', '5.0.2'
 end
